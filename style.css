@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: gainsboro;
+}
+body {
+  background: #262626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  height: 4vh;
+  width: 15vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+form button {
+  height: 55%;
+  padding: 1px;
+}
+input {
+  border: 1px solid #6e19b1;
+  background: transparent;
+  height: 50%;
+  border-radius: 4px;
+  outline: none;
+}
+button {
+  background: transparent;
+  border: 1px solid #6e19b1;
+  border-radius: 5px;
+  padding: 2px;
+}
+ul {
+  width: 15vw;
+  height: fit-content;
+}
+li {
+  margin-top: 1vh;
+  margin-left: 1vw;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+span {
+  border-bottom: 1px solid purple;
+}
